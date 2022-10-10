@@ -8,7 +8,7 @@ const Question = ({ data, index }) => {
   };
 
   return (
-    <div className="p-6 w-11/12 md:w-10/12 mx-auto shadow-xl rounded-lg my-12">
+    <div className="p-6 w-11/12 md:w-10/12 mx-auto shadow-xl rounded-lg my-12 border border-1 border-primary">
       <h2 className="text-center text-xl font-semibold">
         Quiz {index + 1}: {question}
       </h2>
