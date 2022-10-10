@@ -5,7 +5,7 @@ import NavItems from "./NavItems";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className=" py-5 bg-lime-600">
+    <div className=" py-5 bg-primary">
       <div className="container w-5/6 flex justify-between items-center mx-auto">
         <div className="w-1/5">
           <h1 className="text-4xl font-bold text-white">QuizHut</h1>
