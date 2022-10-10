@@ -1,13 +1,13 @@
-import React, { useContext } from "react";
-import { QuizContext } from "../App";
+import React from "react";
+
 import HeroHeader from "./HeroHeader";
+import Topics from "./Topics";
 
 const Home = () => {
-  const topics = useContext(QuizContext);
-  console.log(topics);
   return (
     <div>
       <HeroHeader></HeroHeader>
+      <Topics></Topics>
     </div>
   );
 };
