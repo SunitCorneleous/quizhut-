@@ -20,7 +20,6 @@ const HeroHeader = () => {
             Get started now to find out more about the quizzes and have fun with
             learning.
           </p>
-          <button className="btn btn-primary font-bold">Get Started</button>
         </div>
       </div>
     </header>
