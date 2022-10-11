@@ -14,4 +14,4 @@
 * React Hooks used: useState(), useEffect(), useContext()
 * React Router hooks: useLoaderData()
 
-### Routes are defined by createBrowserRouter. Data are fetched on dynamic routes.
+### Routes are defined by createBrowserRouter. Data are fetched on dynamic routes by loader.
