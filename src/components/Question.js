@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { EyeIcon } from "@heroicons/react/24/solid";
+import { ResultContext } from "../App";
 
 const Question = ({ data, index }) => {
   const { id, question, options, correctAnswer } = data;
+  const { resultHandler } = useContext(ResultContext);
 
   const notify = value => toast(`Your answer is ${value}`);
   const notifyTwo = value => toast(`Correct answer is ${value}`);
@@ -12,8 +14,10 @@ const Question = ({ data, index }) => {
   const questionCheckHandler = answer => {
     if (answer === correctAnswer) {
       notify("correct");
+      resultHandler({ right: 1 });
     } else {
       notify("wrong");
+      resultHandler({ wrong: 1 });
     }
   };
 
