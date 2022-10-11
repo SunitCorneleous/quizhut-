@@ -11,7 +11,9 @@ const NavItems = ({ navOptions }) => {
       <li className="md:mx-1 text-xl md:my-0 my-20 px-7 md:px-2">
         <NavLink
           to="/home"
-          className={({ isActive }) => (isActive ? "text-neutral" : undefined)}
+          className={({ isActive }) =>
+            isActive ? "text-neutral font-semibold" : undefined
+          }
         >
           Home
         </NavLink>
@@ -19,7 +21,9 @@ const NavItems = ({ navOptions }) => {
       <li className="md:mx-1 text-xl md:my-0 my-20 px-7 md:px-2">
         <NavLink
           to="/statistics"
-          className={({ isActive }) => (isActive ? "text-neutral" : undefined)}
+          className={({ isActive }) =>
+            isActive ? "text-neutral font-semibold" : undefined
+          }
         >
           Statistics
         </NavLink>
@@ -27,7 +31,9 @@ const NavItems = ({ navOptions }) => {
       <li className="md:mx-1 text-xl md:my-0 my-20 px-7 md:px-2">
         <NavLink
           to="/blog"
-          className={({ isActive }) => (isActive ? "text-neutral" : undefined)}
+          className={({ isActive }) =>
+            isActive ? "text-neutral font-semibold" : undefined
+          }
         >
           Blog
         </NavLink>
