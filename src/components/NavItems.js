@@ -5,7 +5,7 @@ const NavItems = ({ navOptions }) => {
   return (
     <ul
       className={`bg-primary-focus text-white z-10 md:bg-primary w-3/5 md:w-3/7 md:flex justify-end absolute  md:static ease-in duration-300 ${
-        navOptions ? "left-0 top-0 h-full" : "left-[-240px] top-0 h-full"
+        navOptions ? "left-0 top-0 h-full" : "left-[-280px] top-0 h-full"
       }`}
     >
       <li className="md:mx-1 text-xl md:my-0 my-20 px-7 md:px-2">
