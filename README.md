@@ -17,6 +17,8 @@
   - Tailwind Css
   - Daisy UI
   * Recharts
+  * Toastify React
+  * Hero Icons
 
 - React Hooks used: useState(), useEffect(), useContext()
 - React Router hooks: useLoaderData()
